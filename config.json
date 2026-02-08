@@ -264,6 +264,45 @@
       "api": "https://api.okzyw.net/api.php/provide/vod",
       "name": "TV-OK资源",
       "detail": "https://okzyw.cc/index.php/label/help.html"
+    },
+    "58": {
+      "name": "🎬魔都动漫",
+      "api": "https://caiji.moduapi.cc/api.php/provide/vod",
+      "detail": "https://caiji.moduapi.cc"
+    },
+    "59": {
+      "name": "🎬无尽资源1",
+      "api": "https://api.wujinapi.com/api.php/provide/vod",
+      "detail": "https://wujinzy.com"
+    },
+    "60": {
+      "name": "TV-豆瓣资源",
+      "api": "https://caiji.dbzy.tv/api.php/provide/vod",
+      "detail": "https://caiji.dbzy.tv"
+    },
+    "61": {
+      "api": "http://cj.lziapi.com/api.php/provide/vod",
+      "name": "量子资源"
+    },
+    "62": {
+      "api": "http://sdzyapi.com/api.php/provide/vod",
+      "name": "闪电资源"
+    },
+    "63": {
+      "api": "https://tyyszyapi.com/api.php/provide/vod/",
+      "name": "天涯影视"
+    },
+    "64": {
+      "name": "无水印资源网采集接口",
+      "api": "https://api.wsyzy.net/api.php/provide/vod"
+    },
+    "65": {
+      "name": "速播资源采集规则地址",
+      "api": "https://subocj.com/api.php/provide/vod"
+    },
+    "66": {
+      "name": "OK资源采集网采集接口",
+      "api": "http://api.okzyw.net/api.php/provide/vod"
     }
   }
 }
