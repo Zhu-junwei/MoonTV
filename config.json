@@ -251,50 +251,14 @@
       "detail": "https://mtzy.me"
     },
     "55": {
-      "name": "🎬最大资源",
-      "api": "https://api.zuidapi.com/api.php/provide/vod",
-      "detail": "https://zuida.xyz"
+      "name": "🎬猫眼资源",
+      "api": "https://api.maoyanapi.top/api.php/provide/vod",
+      "detail": "https://www.maoyanzy.com"
     },
     "56": {
-      "api": "https://cj.yayazy.net/api.php/provide/vod",
-      "name": "丫丫点播",
-      "detail": "https://cj.yayazy.net",
-      "is_adult": false
-    },
-    "57": {
-      "api": "http://zuidazy.me/api.php/provide/vod",
-      "name": "最大点播",
-      "detail": "http://zuidazy.me",
-      "is_adult": false
-    },
-    "58": {
-      "api": "https://api.niuniuzy.me/api.php/provide/vod",
-      "name": "牛牛点播",
-      "detail": "https://api.niuniuzy.me",
-      "is_adult": false
-    },
-    "59": {
-      "api": "https://sdzyapi.com/api.php/provide/vod",
-      "name": "闪电资源",
-      "detail": "https://sdzyapi.com",
-      "is_adult": false
-    },
-    "60": {
-      "api": "https://xsd.sdzyapi.com/api.php/provide/vod",
-      "name": "闪电资源",
-      "detail": "https://xsd.sdzyapi.com",
-      "is_adult": false
-    },
-    "61": {
-      "_comment": "备用",
-      "name": "iTV-最大点播",
-      "api": "https://zuidazy.me/api.php/provide/vod",
-      "detail": "https://zuidazy.co"
-    },
-    "62": {
-      "name": "闪电",
-      "api": "http://sdzyapi.com/api.php/provide/vod",
-      "detail": "http://sdzyapi.com"
+      "api": "https://ckzy.me/api.php/provide/vod",
+      "name": "CK资源",
+      "detail": "https://ckzy.me"
     }
   }
 }
