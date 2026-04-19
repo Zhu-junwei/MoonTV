@@ -260,65 +260,71 @@
       "is_**": false
     },
     "56": {
-      "api": "https://sdzyapi.com/api.php/provide/vod",
-      "name": "TV-闪电资源",
-      "detail": "https://sdzyapi.com",
-      "is_**": false
-    },
-    "57": {
       "api": "https://www.kxgav.com/api/json.php",
       "name": "AV-白嫖资源",
       "detail": "https://www.kxgav.com",
       "is_**": true
     },
-    "58": {
+    "57": {
       "api": "https://www.msnii.com/api/json.php",
       "name": "AV-美少女资源",
       "detail": "https://www.msnii.com",
       "is_**": true
     },
-    "59": {
+    "58": {
       "name": "OK资源采集网采集接口",
       "api": "http://api.okzyw.net/api.php/provide/vod"
     },
-    "60": {
+    "59": {
       "api": "https://api.okzyw.net/api.php/provide/vod",
       "name": "TV-OK资源",
       "detail": "https://okzyw.cc/index.php/label/help.html"
     },
-    "61": {
+    "60": {
       "api": "https://ckzy.me/api.php/provide/vod",
       "name": "CK资源",
       "detail": "https://ckzy.me"
     },
-    "62": {
+    "61": {
       "name": "黄AV资源",
       "api": "https://www.pgxdy.com/api/json.php",
       "detail": "https://www.pgxdy.com"
     },
-    "63": {
-      "api": "https://xsd.sdzyapi.com/api.php/provide/vod",
-      "name": "索尼-闪电资源"
-    },
-    "64": {
+    "62": {
       "api": "http://ffzy5.tv/api.php/provide/vod",
       "name": "非凡影视",
       "detail": "http://ffzy5.tv"
     },
-    "65": {
+    "63": {
       "api": "https://www.suoniapi.com/api.php/provide/vod/",
       "name": "索尼资源"
     },
-    "66": {
+    "64": {
       "api": "https://www.ckzy1.com/api.php/provide/vod",
       "name": "🔞CK资源",
       "detail": "",
       "is_adult": true
     },
+    "65": {
+      "name": "🎬如意资源",
+      "api": "https://pz.v88.qzz.io/?url=https://cj.rycjapi.com/api.php/provide/vod",
+      "detail": "https://www.ryzyw.com"
+    },
+    "66": {
+      "name": "Rui-豆瓣资源",
+      "api": "https://caiji.dbzy5.com/api.php/provide/vod",
+      "detail": "https://dbzy.tv"
+    },
     "67": {
-      "api": "http://ffzy1.tv/api.php/provide/vod",
-      "name": "非凡线路1",
-      "detail": ""
+      "name": "淫水机资源",
+      "api": "https://www.xrbsp.com/api/json.php",
+      "detail": "https://www.xrbsp.com"
+    },
+    "68": {
+      "_comment": "备用",
+      "name": "🎬最大点播",
+      "api": "https://zuidazy.me/api.php/provide/vod",
+      "detail": "https://zuidazy.co"
     }
   }
 }
