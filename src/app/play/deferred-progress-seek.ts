@@ -26,6 +26,33 @@ export interface DeferredProgressSeekOptions {
 const DEFAULT_LONG_PRESS_DELAY_MS = 500;
 
 /**
+ * 判断触摸目标是否在播放器内的交互元素内（如设置面板、控制栏滑条等）。
+ * 这些元素需要原生滚动 / 拖拽行为，不能被音量亮度手势接管。
+ */
+function isInsideInteractiveOverlay(el: HTMLElement): boolean {
+  const selectors = [
+    '.art-setting',
+    '.art-setting-item',
+    '.art-setting-item-left',
+    '.art-setting-item-right',
+    '.art-setting-item-left-text',
+    '.art-setting-item-left-icon',
+    '.art-volume',
+    '.art-volume-progress',
+    '.art-brightness',
+    '.art-progress',
+    '.art-bar',
+    '.art-control',
+    '.art-icon',
+    '.art-tooltip',
+  ];
+  for (const sel of selectors) {
+    if (el.closest(sel)) return true;
+  }
+  return false;
+}
+
+/**
  * 拖动落地之后的「用户意图保护」窗口（毫秒）。
  *
  * hls.js 在换档（ABR 自动降码率 / 手动切画质）时会 flush 前向缓冲；如果此时
@@ -233,6 +260,11 @@ export function bindDeferredProgressSeek(
     suppressVideoClickUntil = 0;
     if (gesture && event.touches.length !== 1) {
       onCancel(event);
+      return;
+    }
+    // 检查触摸目标是否在设置面板等交互元素内，如果是则不接管手势
+    const target = event.target as HTMLElement | null;
+    if (target && isInsideInteractiveOverlay(target)) {
       return;
     }
     if (
