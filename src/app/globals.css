@@ -809,6 +809,17 @@ div[data-media-provider] video {
   opacity: 0;
   visibility: hidden;
 }
+/* 播放进度条：跟随控制栏显示/隐藏 */
+.art-video-player .art-bottom .art-progress {
+  transition: opacity 0.2s ease, visibility 0.2s ease, transform 0.2s ease;
+}
+.art-video-player:not(.art-control-show):not(.art-hover) .art-bottom .art-progress,
+.art-video-player.art-hide-cursor .art-bottom .art-progress,
+.art-video-player.art-lock .art-bottom .art-progress {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
 .art-video-player:fullscreen .moontv-player-modal > div,
 .art-video-player:-webkit-full-screen .moontv-player-modal > div,
 .art-video-player.art-fullscreen-web .moontv-player-modal > div,
