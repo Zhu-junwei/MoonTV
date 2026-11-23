@@ -815,14 +815,6 @@ div[data-media-provider] video {
 .art-video-player.art-fullscreen .moontv-player-modal > div {
   position: absolute;
 }
-
-/* 全屏模式下隐藏播放进度条 */
-.art-video-player.art-fullscreen .art-progress,
-.art-video-player.art-fullscreen-web .art-progress,
-.art-video-player:fullscreen .art-progress,
-.art-video-player:-webkit-full-screen .art-progress {
-  display: none !important;
-}
 @media (max-width: 768px) {
   .art-control-pip,
   .art-control-fullscreenWeb,
